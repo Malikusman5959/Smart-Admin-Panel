@@ -1,0 +1,11 @@
+.hero-image {
+    background-image: linear-gradient(rgba(2, 4, 92, 0.699), rgba(5, 52, 206, 0.336)), url("https://i.picsum.photos/id/1068/7117/4090.jpg?hmac=Y6xHXrzHsNlbRTbhzZ53Yk-Ux9lUECBLbbP4wb5a1qY");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .circularBody::-webkit-scrollbar {
+    display: none;
+}

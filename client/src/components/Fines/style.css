@@ -1,0 +1,22 @@
+.noScroll::-webkit-scrollbar {
+  display: none;
+}
+
+.noFocus:focus {
+  outline: none;
+}
+.btn-hover:hover {
+  color: black !important;
+  cursor: pointer;
+}
+
+.react-datepicker__input-container input 
+{
+  width: 100px !important;
+}
+
+.ReactModal__Content ReactModal__Content--after-open::-webkit-scrollbar 
+{
+  display: none;
+
+}

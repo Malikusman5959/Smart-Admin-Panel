@@ -1,0 +1,167 @@
+.pageBody {
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(255, 255, 255); */
+  display: flex;
+  flex-direction: column;
+}
+
+.noScroll::-webkit-scrollbar {
+  display: none;
+}
+
+.top-search-combo-containor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+  /* background-color: black; */
+  text-align: center;
+  /* border: 1px solid green; */
+}
+form.example {
+  display: flex;
+  border: 2px solid rgb(22, 22, 75);
+  margin-right: 2rem;
+}
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  /* float: left; */
+  width: 80%;
+  background: #f1f1f1;
+  stroke: 0;
+  border-radius: 0;
+  outline: none;
+  /* background-color: green; */
+}
+
+/* Style the submit button */
+form.example button {
+  width: 15%;
+  padding: 10px;
+  background: #2575c0;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  border-radius: 0;
+}
+
+form.example button:hover {
+  background: #1b3447;
+}
+
+/* Clear floats */
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+select {
+  position: relative;
+  width: 15rem;
+  border: 1px solid black;
+}
+.select svg {
+  position: absolute;
+  right: 12px;
+  top: calc(50% - 3px);
+  width: 10px;
+  height: 6px;
+  stroke-width: 2px;
+  stroke: #9098a9;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+.select select {
+  -webkit-appearance: none;
+  height: 45px;
+  padding: 7px 40px 7px 12px;
+  width: 22rem;
+  border: 1px solid #253144;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 1px 3px -2px #9098a9;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  transition: all 150ms ease;
+}
+.select select:required:invalid {
+  color: #5a667f;
+}
+.select select option {
+  color: #223254;
+}
+.select select option[value=""][disabled] {
+  display: none;
+}
+.select select:focus {
+  outline: none;
+  border-color: rgb(26, 41, 58);
+  box-shadow: 0 0 0 2px rgba(0, 119, 255, 0.2);
+}
+.select select:hover + svg {
+  stroke: rgb(32, 56, 83);
+}
+.sprites {
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  user-select: none;
+}
+.inputs {
+  height: 2.5rem;
+  width: 15rem;
+}
+/*  */
+/*  */
+/*  */
+.utli-center {
+  /* justify-content: center; */
+  align-items: center;
+  display: flex;
+}
+.loginContainor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* flex: 1; */
+  padding: 1rem;
+  width: 35%;
+  border-radius: 10px;
+  background-color: #2575c0;
+  /* width: fit-content; */
+  margin-top: 1rem;
+}
+.input_input {
+  height: 2rem;
+  width: 22rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-align: center;
+  color: #1b3447;
+  font-size: 0.9rem;
+}
+.util-text-area {
+  height: 7rem;
+}
+.lbl-text {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}

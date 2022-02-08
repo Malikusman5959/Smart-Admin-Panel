@@ -1,0 +1,75 @@
+.noScroll::-webkit-scrollbar {
+  display: none;
+}
+
+.noFocus:focus {
+  outline: none;
+}
+.customeModel {
+  margin-top: 7rem;
+  width: 100%;
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  flex-direction: column;
+  position: relative;
+}
+.btnClose {
+  background-color: #2575c0;
+  top: -10px;
+  left: -0px;
+  border-radius: 3px;
+  position: absolute;
+  padding: 0.6rem 1rem;
+  color: white;
+  cursor: pointer;
+}
+.fineDetailsCard {
+  color: #2575c0;
+  background-color: #ffffff;
+  border-radius : 15px;
+  width: 400px;
+  height: 430px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 10px;
+}
+.row1 {
+  display: flex;
+  justify-content: space-around;
+  line-height: 0rem;
+}
+.row0
+{
+  display: flex;
+  justify-content: space-around;
+  line-height: 0rem;
+  text-align: left !important;
+  margin : 0 !important;
+  margin-bottom : -10px !important;
+  font-weight: 400;
+}
+.row1 > h5 {
+  text-align: left !important;
+  /* margin : 0 !important; */
+  margin : 10px;
+  font-weight: 200;
+}
+/* .fine {
+  margin-left: 4rem;
+  margin-top: 1rem;
+} */
+
+.finetbn {
+  margin-top: 0.6rem;
+  background-color: #2575c0;
+  padding: 0.5rem;
+  border-radius: 10px;
+  color: white;
+  width: 10rem;
+  text-align: center;
+  margin-left: 0rem;
+  cursor: pointer;
+}

@@ -1,0 +1,43 @@
+nav
+{
+    display: flex;
+    justify-content:center;
+    background-color: rgb(37, 37, 37);
+    color: azure;
+
+}
+
+
+.nav-links
+{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 13px;
+}
+
+.nav-links img
+{   
+    width: 23px;
+    height: 23px;
+}
+
+.nav-links img:hover
+{
+    width: 24px;
+    height: 24px;
+}
+
+.nav-links input
+{
+    width: 60%;
+}
+
+.search-type
+{
+    width: 20%;
+    height: 21px;
+
+}
